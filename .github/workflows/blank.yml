@@ -37,4 +37,5 @@ jobs:
       run: |
         java -version
         javac -version
+        df -h .
 
