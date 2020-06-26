@@ -33,9 +33,10 @@ jobs:
         echo test, and deploy your project.
 
     # Check java version
-    - name: Check java version
+    - name: Run several commands
       run: |
         java -version
         javac -version
         df -h .
+        free -h
 
