@@ -34,5 +34,7 @@ jobs:
 
     # Check java version
     - name: Check java version
-      run: java -version
+      run: |
+        java -version
+        javac -version
 
